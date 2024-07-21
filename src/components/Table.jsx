@@ -77,8 +77,8 @@ export default function Table() {
             </button>
           </div>
         </div>
-        <div className="m-3 ">
-          <table class="md:table-auto table-fixed md:text-base text-xs w-full text-center">
+        <div className="m-3 overflow-x-auto">
+          <table class="md:table-auto table-fixed md:text-base text-xs min-w-full text-center ">
             <thead className="bg-slate-200 text-slate-500 rounded-lg ">
               <tr>
                 <th className="p-2">Order ID</th>
