@@ -17,6 +17,9 @@ function App() {
           <Navbar></Navbar>
           <Dashboard></Dashboard>
           <Table></Table>
+          <div className="flex m-3 justify-center">
+            Made with ❤️ by Shashwat{" "}
+          </div>
         </div>
       </div>
     </>
